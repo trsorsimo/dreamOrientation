@@ -13,6 +13,7 @@ import javax.persistence.Version;
 
 import java.lang.Override;
 import java.util.Date;
+import java.util.List;
 
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
@@ -29,6 +30,19 @@ public class User extends AbstractIdentif
 	   @Column(nullable = false)
 	   @Temporal(TemporalType.DATE)
 	   private Date dateNais;
+	   
+		private List <DiplomDomain> diploms;
+	   
+	   public List<DiplomDomain> getDiploms() {
+		return diploms;
+	}
+
+	public void setDiploms(List<DiplomDomain> diploms) {
+		this.diploms = diploms;
+	}
+
+
+	   
 
   
    public String getName()

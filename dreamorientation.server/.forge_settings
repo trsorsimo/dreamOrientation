@@ -2,4 +2,10 @@
 <configuration>
 <activatorChoice>WEB_XML</activatorChoice>
 <rootpath>/rest</rootpath>
+<rest>
+<applicationclass>
+<package>dream.orientation.rest</package>
+<name>RestApplication</name>
+</applicationclass>
+</rest>
 </configuration>

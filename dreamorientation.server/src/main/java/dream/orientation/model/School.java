@@ -14,6 +14,7 @@ import java.lang.Override;
 
 import dream.orientation.enumeration.originRegion;
 import dream.orientation.lib.AbstractIdentif;
+import dream.orientation.lib.Locality;
 
 import javax.persistence.Enumerated;
 
@@ -25,7 +26,7 @@ public class School extends AbstractIdentif
    private String name;
 
    @Enumerated
-   private originRegion locality;
+   private Locality locality;
 
    @Column
    private String type;
@@ -38,16 +39,6 @@ public class School extends AbstractIdentif
    public void setName(String name)
    {
       this.name = name;
-   }
-
-   public originRegion getLocality()
-   {
-      return locality;
-   }
-
-   public void setLocality(originRegion locality)
-   {
-      this.locality = locality;
    }
 
    public String getType()

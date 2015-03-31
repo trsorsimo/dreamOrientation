@@ -22,6 +22,26 @@ public class Domain extends AbstractIdentif
    private String name;
    private TypeDomain typeDomain;
    private List <Metier> debouches;
+public String getName() {
+	return name;
+}
+public void setName(String name) {
+	this.name = name;
+}
+public TypeDomain getTypeDomain() {
+	return typeDomain;
+}
+public void setTypeDomain(TypeDomain typeDomain) {
+	this.typeDomain = typeDomain;
+}
+public List<Metier> getDebouches() {
+	return debouches;
+}
+public void setDebouches(List<Metier> debouches) {
+	this.debouches = debouches;
+}
+   
+   
    
   
 }

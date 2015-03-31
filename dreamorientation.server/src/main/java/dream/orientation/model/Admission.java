@@ -8,6 +8,8 @@ public class Admission {
 	
 	private List <DiplomDomain> level;
 	private int age ;
+	private int yearsInWork ;
+	
 	
 	public List<DiplomDomain> getLevel() {
 		return level;
@@ -27,7 +29,7 @@ public class Admission {
 	public void setYearsInWork(int yearsInWork) {
 		this.yearsInWork = yearsInWork;
 	}
-	private int yearsInWork ;
+	
 	
 
 }
