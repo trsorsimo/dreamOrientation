@@ -1,4 +1,4 @@
-package dream.orientation.model;
+package dream.orientation.lib;
 
 import java.io.Serializable;
 import java.util.Date;

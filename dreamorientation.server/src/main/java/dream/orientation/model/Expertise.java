@@ -10,6 +10,8 @@ import javax.persistence.GenerationType;
 import javax.persistence.Column;
 import javax.persistence.Version;
 
+import dream.orientation.lib.AbstractIdentif;
+
 import java.lang.Override;
 
 @Entity

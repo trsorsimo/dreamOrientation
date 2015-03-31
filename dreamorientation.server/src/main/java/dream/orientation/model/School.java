@@ -11,7 +11,10 @@ import javax.persistence.Column;
 import javax.persistence.Version;
 
 import java.lang.Override;
+
 import dream.orientation.enumeration.originRegion;
+import dream.orientation.lib.AbstractIdentif;
+
 import javax.persistence.Enumerated;
 
 @Entity

@@ -17,6 +17,8 @@ import java.util.Date;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
+import dream.orientation.lib.AbstractIdentif;
+
 @Entity
 @Table(name = "USER")
 public class User extends AbstractIdentif

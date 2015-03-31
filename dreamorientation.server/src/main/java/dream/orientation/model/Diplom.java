@@ -10,7 +10,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Column;
 import javax.persistence.Version;
 
+import dream.orientation.enumeration.Nationality;
 import dream.orientation.enumeration.StudyLevel;
+import dream.orientation.lib.AbstractIdentif;
 
 import java.lang.Override;
 
@@ -21,6 +23,7 @@ public class Diplom extends AbstractIdentif
 	private String name ;
 	private String intitule;
 	private StudyLevel level;
+	private Nationality nationality;
 	
   
 }
